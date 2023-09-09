@@ -3,7 +3,7 @@
     <h1>
       Shaker Nation
     </h1>
-    The Guide to Hotwheels Bone Shakers
+    The Guide to Hotwheels Bone Shakers.
 </div>
 
 <br>
@@ -17,7 +17,7 @@
 
 ## About
 
-[under construction]
+We use the [boneshaker-api](https://rpradosilva.github.io/boneshaker-api/src/api/boneshaker-api.json) to list all bone shaker models.
 
 ## Authors
 
