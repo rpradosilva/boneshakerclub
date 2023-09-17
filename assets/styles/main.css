@@ -1,0 +1,81 @@
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap");
+
+:root {
+  --title-h1: italic 800 88px/1 Saira, sans-serif;
+  --title-h2: italic 900 45px/1 Saira, sans-serif;
+  --title-h3: italic 700 18px/1.6 Saira, sans-serif;
+  --button: italic 600 16px/1 Saira, sans-serif;
+  --white: #ffffff;
+  --lightblue: #216dd3;
+  --mediumblue: #11315a;
+  --darkblue: #011c40;
+  --red: #d9043d;
+  --orange: #fd7b07;
+}
+
+body {
+  background-image: radial-gradient(
+    circle 100vw at 50% 50%,
+    var(--mediumblue) 0%,
+    var(--darkblue) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  color: var(--white);
+  font: var(--title-h1);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.1),
+    0 0 20px rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.1),
+    0 0 40px rgba(255, 255, 255, 0.1), 0 0 50px rgba(255, 255, 255, 0.1),
+    0 0 60px rgba(255, 255, 255, 0.1), 0 0 70px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+  font: var(--title-h2);
+  color: var(--white);
+}
+
+h3 {
+  font: var(--title-h3);
+  color: var(--orange);
+}
+
+a,
+a.secondary {
+  border-radius: 3px;
+  background-color: var(--lightblue);
+  color: var(--white);
+  clip-path: polygon(
+    12px -1px,
+    calc(100% + 1px) -1px,
+    calc(100% + 1px) calc(100% - 12px),
+    calc(100% - 12px) calc(100% + 1px),
+    -1px calc(100% + 1px),
+    -1px 12px
+  );
+  display: inline-block;
+  font: var(--button);
+  letter-spacing: 1.07px;
+  padding: 15px 40px;
+  text-decoration: none;
+  transition: clip-path 150ms ease-in-out, background-color 0.35s,
+    -webkit-clip-path 150ms ease-in-out;
+}
+
+a.secondary {
+  background-color: var(--mediumblue);
+}
+
+a:hover,
+a.secondary:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 0);
+  background-color: var(--orange);
+}
+
+a.secondary:hover {
+  background-color: var(--lightblue);
+}

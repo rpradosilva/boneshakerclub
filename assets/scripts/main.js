@@ -4,8 +4,7 @@ const api =
 async function getCars(api) {
   let apiObject = await fetch(api);
   let boneshakers = await apiObject.json();
-  console.log(boneshakers);
-
+  // console.log(boneshakers);
   // for (const boneshaker of boneshakers) {
   // }
 }
