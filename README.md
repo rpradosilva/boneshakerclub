@@ -17,7 +17,7 @@
 
 ## About
 
-We use the [boneshaker-api](https://rpradosilva.github.io/boneshaker-api/src/api/boneshaker-api.json) to list all bone shaker models.
+We use the [boneshaker-api](https://rpradosilva.github.io/bs-api/src/api/bs-api.json) to list all bone shaker models.
 
 ## Authors
 
