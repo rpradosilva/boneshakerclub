@@ -1,7 +1,7 @@
 <div align="center">
-    <img src=".github/icon.png" alt="Logo Repo" width="400">
-    <h1>
-      Shaker Nation
+    <img src=".github/repo-logo.svg" alt="Logo Repo" width="112">
+    <h1 style="padding-top: 16px;">
+      Bone Shaker Club
     </h1>
     The Guide to Hotwheels Bone Shakers.
 </div>
@@ -9,9 +9,9 @@
 <br>
 <div align="center">
 
-[![About](https://img.shields.io/badge/-About-cc3333)](#about)
-[![License](https://img.shields.io/badge/-License-330000)](/LICENSE)
-[![Authors](https://img.shields.io/badge/-Author-330000)](#authors)
+[![About](https://img.shields.io/badge/-About-008EA1)](#about)
+[![License](https://img.shields.io/badge/-License-27282A)](/LICENSE)
+[![Authors](https://img.shields.io/badge/-Author-27282A)](#authors)
 
 </div>
 
